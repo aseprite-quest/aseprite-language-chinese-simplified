@@ -1,0 +1,31 @@
+{
+  "name": "language-chinese-simplified",
+  "displayName": "Language Chinese (Simplified)",
+  "description": "Aseprite Language Chinese (Simplified)",
+  "version": "0.0.0",
+  "author": {
+    "name": "Aseprite Quest",
+    "url": "https://github.com/aseprite-quest"
+  },
+  "contributors": [
+    {
+      "name": "TakWolf",
+      "url": "https://takwolf.com"
+    }
+  ],
+  "publisher": "Aseprite Quest",
+  "license": "CC-BY-4.0",
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "zh-Hans",
+        "path": "./zh-hans.ini",
+        "englishName": "Chinese (Simplified)",
+        "displayName": "中文（简体）"
+      }
+    ]
+  }
+}
