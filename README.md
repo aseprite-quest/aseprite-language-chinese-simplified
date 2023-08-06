@@ -1,13 +1,13 @@
-# Aseprite Language Chinese (Simplified)
+# Aseprite 语言包 - 中文（简体）
 
 [![Releases](https://img.shields.io/github/v/release/aseprite-quest/aseprite-language-chinese-simplified)](https://github.com/aseprite-quest/aseprite-language-chinese-simplified/releases)
 
-## Dependencies
+## 程序依赖
 
 - [Aseprite INI](https://github.com/aseprite-quest/aseprite-ini)
 
-## License
+## 许可证
 
-Translations are under the [Creative Commons Attribution 4.0 International License](data/LICENSE.txt).
+翻译使用 [知识共享署名 4.0 国际许可证](data/LICENSE.txt) 授权。
 
-Scripts are under the [MIT License](LICENSE).
+脚本使用 [MIT 许可证](LICENSE) 授权。
