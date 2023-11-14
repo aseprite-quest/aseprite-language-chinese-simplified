@@ -4,7 +4,7 @@ import os
 from aseprite_ini import Aseini
 
 logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger('format')
+logger = logging.getLogger('update')
 
 project_root_dir = os.path.dirname(__file__)
 strings_dir = os.path.join(project_root_dir, 'assets', 'strings')
