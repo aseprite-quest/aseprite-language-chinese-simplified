@@ -2,7 +2,7 @@
 
 [![Releases](https://img.shields.io/github/v/release/aseprite-quest/aseprite-language-chinese-simplified)](https://github.com/aseprite-quest/aseprite-language-chinese-simplified/releases)
 
-推荐配合 [「多语言像素主题」](https://github.com/aseprite-quest/aseprite-unified-pixel-theme) 一起使用。
+推荐配合[「多语言像素主题」](https://github.com/aseprite-quest/aseprite-unified-pixel-theme)一起使用。
 
 ![Preview](docs/preview.png)
 
