@@ -4,11 +4,17 @@
 
 推荐配合[「多语言像素主题」](https://github.com/aseprite-quest/aseprite-unified-pixel-theme)一起使用。
 
+## 预览
+
 ![Preview](docs/preview.png)
 
 ## 辅助工具
 
 - [Aseprite INI](https://github.com/aseprite-quest/aseprite-ini)
+
+## 参考资料
+
+- [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
 ## 许可证
 
