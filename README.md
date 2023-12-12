@@ -1,14 +1,6 @@
-# 该扩展已经过时
+# 语言包扩展已过时
 
-Aseprite 翻译已经迁移至 [Weblate/Aseprite](https://hosted.weblate.org/projects/aseprite/)，语言扩展包的形式已经过时。
-
-稍后时候，该仓库将进入归档模式。
-
-如果您仍然想使用语言扩展包，请查看 [Releases](https://github.com/aseprite-quest/aseprite-language-chinese-simplified/releases)，它适用于仍然兼容语言包扩展的 Aseprite 版本。
-
-最新节点的[翻译文件](https://github.com/aseprite-quest/aseprite-language-chinese-simplified/blob/master/data/zh-hans.ini)已经针对 Weblate 进行过格式适配，可以直接导入。
-
-任何人都可以随意使用该翻译文本。
+Aseprite 翻译已经迁移至 [Weblate/Aseprite](https://hosted.weblate.org/projects/aseprite/)，语言包扩展已过时。
 
 # Aseprite 语言包 - 中文（简体）
 
