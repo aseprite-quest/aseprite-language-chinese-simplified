@@ -7,16 +7,16 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger('update')
 
 project_root_dir = os.path.dirname(__file__)
-strings_dir = os.path.join(project_root_dir, 'assets', 'strings')
-data_dir = os.path.join(project_root_dir, 'data')
+assets_dir = os.path.join(project_root_dir, 'assets')
 
 
 def main():
+    en_file_path = os.path.join(assets_dir, 'en.ini')
     strings_en = Aseini.pull_strings('main')
-    strings_en.save(os.path.join(strings_dir, 'en.ini'))
+    strings_en.save(en_file_path)
     logger.info("Update strings: 'en.ini'")
 
-    zh_hans_file_path = os.path.join(data_dir, 'zh-hans.ini')
+    zh_hans_file_path = os.path.join(assets_dir, 'zh-hans.ini')
     strings_zh_hans = Aseini.load(zh_hans_file_path)
     strings_zh_hans.save(zh_hans_file_path, strings_en)
     logger.info("Update strings: 'zh-hans.ini'")
