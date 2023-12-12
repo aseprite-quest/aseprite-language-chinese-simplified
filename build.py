@@ -24,14 +24,8 @@ def main():
 
     strings_en = Aseini.load(os.path.join(assets_dir, 'en.ini'))
     strings_zh_hans = Aseini.load(os.path.join(assets_dir, 'zh-hans.ini'))
-    for section_name, section in strings_zh_hans.items():
-        for key, value in section.items():
-            if '\\n' in value:
-                value = value.replace('\\n', '\n')
-                value = f'<<<END\n{value}\nEND'
-                strings_zh_hans[section_name][key] = value
     zh_hans_old_file_path = os.path.join(outputs_dir, 'zh-hans.ini')
-    strings_zh_hans.save(zh_hans_old_file_path, strings_en)
+    strings_zh_hans.save(zh_hans_old_file_path, strings_en, old_format=True)
     logger.info("Make old format strings: 'zh-hans.ini'")
 
     package_json_file_path = os.path.join(assets_dir, 'package.json')

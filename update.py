@@ -18,6 +18,7 @@ def main():
 
     zh_hans_file_path = os.path.join(assets_dir, 'zh-hans.ini')
     strings_zh_hans = Aseini.load(zh_hans_file_path)
+    strings_zh_hans.patch(Aseini.pull_strings_by_url('https://hosted.weblate.org/download/aseprite/aseprite/zh_Hans/'))
     strings_zh_hans.save(zh_hans_file_path, strings_en)
     logger.info("Update strings: 'zh-hans.ini'")
 
